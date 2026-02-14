@@ -1,4 +1,4 @@
-baseURL = "https://wifimg.github.io/"
+baseURL = "https://wifiasdf.github.io/"
 languageCode = "zh-cn"
 title = "WiFiMG的技术博客"
 hasCJKLanguage = true
@@ -18,3 +18,5 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "JSON"]
+    section = ["HTML", "JSON"]

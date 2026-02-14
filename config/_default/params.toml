@@ -4,13 +4,19 @@ favicon = "img/logo.png"
 
 [footer]
     since = 2025
+    customText = "Made with ❤️ by WiFiMG"
 
 [sidebar]
-    emoji = ""
+    emoji = "💻"
     subtitle = "记录技术，分享知识"
     avatar = "img/logo.png"
 
 [article]
+    headingAnchor = true
+    math = false
+    toc = true
+    readingTime = true
+
     [article.license]
         enabled = true
         default = "本文采用 CC BY-NC-SA 4.0 许可协议"
@@ -35,4 +41,8 @@ favicon = "img/logo.png"
     enabled = true
 
 [imageProcessing.content]
+    enabled = true
+
+[seo]
+    # SEO优化
     enabled = true
