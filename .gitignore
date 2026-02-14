@@ -1,0 +1,26 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo cache
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if any)
+node_modules/
+
+# Convert script (optional, keep if needed)
+# convert_articles.py

@@ -1,0 +1,9 @@
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.highlight]
+        style = "monokai"
+        lineNos = true
+        lineNumbersInTable = true
+        tabWidth = 4
